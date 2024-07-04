@@ -77,8 +77,16 @@
 
 .item-diente{
   text-align: center;
+  position: relative;
   margin: 5px;
+  padding-bottom: 5px;
 } 
+.corona{
+  border: #008000 solid 3px;
+}
+.puente{
+  border-bottom: red solid 4px;
+}
 .cuadro{
   display: flex;  
   padding: 10px;;
@@ -101,4 +109,94 @@
 }
 .filaCuadro{
   display: flex; 
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px; /* Equivalente a 'container' en Bootstrap */
+  margin: 0 auto;
+  padding: 0 15px; /* Equivalente a 'container' en Bootstrap */
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  /* text-align: center; */
+}
+
+.form-control {
+  border: 1px solid #848484;
+  border-radius: .3rem;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  margin: 5px 0;
+  padding: .6rem 1rem;
+  width: 380px;
+}
+
+.label-input {
+  font-size: .975rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: .5rem;
+}
+
+.box-input {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+  background-color: #ffffff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
 }

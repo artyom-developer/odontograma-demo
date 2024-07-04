@@ -25,28 +25,45 @@ export const partes = [
 export const procedimiento = [
     {
         id:1,
-        nombre: 'Caries no reciditiva',
-        color: '#FF0800'
+        nombre: 'Caries',
+        color: '#FF0800',
+        tipo: 'individual'
     },
     {
         id:2,
-        nombre: 'Fractura',
-        color: '#FF0800'
+        nombre: 'Obturación',
+        color: '#0000ff', 
+        tipo: 'individual'
     },
     {
         id:3,
-        nombre: 'A extraer',
-        color: '#e28743'
+        nombre: 'Diente Ausente o Extraído',
+        color: '#fff',
+        tipo: 'grupo' // icono x
     },
     {
         id:4,
-        nombre: 'Cemento temporal',
-        color: '#36454f'
+        nombre: 'Fractura',
+        color: '#8b0000',
+        tipo: 'individual'
     },
     {
         id:5,
-        nombre: 'Procedimiento realizado',
-        color: '#007fff'
+        nombre: 'Corona',
+        color: '#008000',
+        tipo: 'grupo' // circulo rojo
+    },
+    {
+        id:6,
+        nombre: 'Puente',
+        color: '#FF0800',
+        tipo: 'grupo' // raya piso
+    },
+    {
+        id:7,
+        nombre: 'Implante',
+        color: '#007fff',
+        tipo: 'grupo' //  icono
     },
 ]
 
